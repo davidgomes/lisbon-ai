@@ -1,0 +1,20 @@
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #585E64;
+}
+
+body h2 {
+    text-align: center;
+    color: #21303F;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.title {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
