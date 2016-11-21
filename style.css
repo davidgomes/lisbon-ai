@@ -3,7 +3,10 @@
     margin-right: auto;
     font-family: 'Lato', sans-serif;
     color: #585E64;
-    font-size: 1.4em;
+}
+
+.content h3 {
+    font-size: 1.2em;
 }
 
 body {
@@ -20,9 +23,6 @@ body {
 .title {
     width: 50%;
     margin-top: 12%;
-    /*margin-left: auto;
-    margin-right: auto;*/
-    /*display: block;*/
 }
 
 @media (min-width : 768px) {
@@ -32,7 +32,7 @@ body {
     }
 
     .content {
-      font-size: 1.6em;
+      font-size: 1.4em;
     }
 
     .title {
