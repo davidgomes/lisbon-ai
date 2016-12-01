@@ -3,6 +3,7 @@
     margin-right: auto;
     font-family: 'Lato', sans-serif;
     color: #585E64;
+    font-size: 1.2em;
 }
 
 .content h3 {
@@ -23,6 +24,15 @@ body {
 .title {
     width: 50%;
     margin-top: 12%;
+}
+
+.speaker img {
+    width: 150px;
+}
+
+.speaker-description p {
+    margin: 0;
+    font-size: 0.8em;
 }
 
 @media (min-width : 768px) {
