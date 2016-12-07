@@ -27,13 +27,38 @@ body {
     margin-top: 12%;
 }
 
+.lisbon-speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  width: 100%;
+  margin: 5% 2%;
+}
+
 .speaker img {
     width: 150px;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.speaker img:hover {
+    opacity: 0.7;
+}
+
+.speaker-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.speaker-text {
+  font-size: 0.9em;
+  color: #9da1a5;
 }
 
 .speaker-description p {
     margin: 0;
-    font-size: 0.8em;
 }
 
 @media (min-width : 768px) {
@@ -56,6 +81,17 @@ body {
 
     h2 {
         font-size: 2em;
+    }
+
+
+    .lisbon-speakers {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .speaker {
+      margin: 2% 2%;
+      width: 40%;
     }
 }
 
