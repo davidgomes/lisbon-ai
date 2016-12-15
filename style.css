@@ -57,6 +57,16 @@ body {
   color: #9da1a5;
 }
 
+.speaker-text a {
+  font-size: 0.9em;
+  color: #9da1a5;
+  text-decoration: none;
+}
+
+.speaker-text a:hover {
+  text-decoration: underline;
+}
+
 .speaker-description p {
     margin: 0;
 }
