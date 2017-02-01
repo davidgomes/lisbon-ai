@@ -3,7 +3,7 @@
 Colors
 --------------------------------------------------------------------------------
 */
-
+.light { color: $light; }
 
 /*
 --------------------------------------------------------------------------------
@@ -22,6 +22,7 @@ Text and alignments
 .hide        { display: none !important; }
 .fw          { width: 100%; }
 .fh          { height: 100%; }
+.fvw-80      { width: 80vw; }
 .fvw         { width: 100vw; }
 .fvh         { height: 100vh; }
 .w-25        { width: 25%; }
@@ -29,7 +30,9 @@ Text and alignments
 .w-40        { width: 40%; }
 .w-50        { width: 50%; }
 .w-60        { width: 60%; }
-.w-80        { width: 60%; }
+.w-80        { width: 80%; }
+.w-90        { width: 90%; }
+.w-100       { width: 100%; }
 .left        { float: left; }
 .right       { float: right; }
 .center      { margin: auto; float: none; }
@@ -44,7 +47,7 @@ Text and alignments
 .no-upper    { text-transform: none; }
 .lower       { text-transform: lowercase; }
 .t-shadow    { text-shadow: 0 1px 1px rgba($black, .1); }
-
+.z-index     { z-index: 100; }
 .lh-150      { line-height: 150%; }
 
 .va-m        { vertical-align: middle; }
@@ -62,7 +65,6 @@ Draggable elements
     cursor: grabbing;
   }
 }
-
 
 
 /*
@@ -143,3 +145,11 @@ Opacity
 .o-70 { opacity: .7; }
 .o-80 { opacity: .8; }
 .o-90 { opacity: .9; }
+
+
+
+.separate {
+  width: 90vw;
+  height: 1px;
+  border: solid $light 1px;
+}
