@@ -5,16 +5,53 @@ HTML elements look n feel
 */
 html {
   /* base font-size is at reset.scss */
-  @include phablet { @include retina(1.3) { font-size: 80%; } }
-  @include tablet  { @include retina(1.5) { font-size: 90%; } }
-  @include desktop { @include retina(2)   { font-size: 100%; } }
+  // @include phablet { @include retina(1.3) { font-size: 80%; } }
+  // @include tablet  { @include retina(1.5) { font-size: 90%; } }
+  // @include desktop { @include retina(2)   { font-size: 100%; } }
 }
 
 body {
-  background-color: $white;
-  color: $dark;
-  font: normal 400 2rem/2.8rem 'Open Sans', sans-serif;
+  background-color: transparent;
+  color: $light;
+  font: normal 400 2rem/2.8rem 'Khula', sans-serif;
   letter-spacing: -.001em;
+}
+
+.bg-lx-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../../background_blur.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba($purple, 0.6); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba($blue, 0.5), rgba($purple, 0.4)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgba($blue, 0.5), rgba($purple, 0.4)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgba($blue, 0.5), rgba($purple, 0.4)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(bottom right, rgba($blue, 0.5), rgba($purple, 0.4)); /* Standard syntax */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-black {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba($black, 0.6);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
