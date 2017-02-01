@@ -10,7 +10,7 @@ Grid system based on three columns
 }
 
 .half {
-  @include tablet { width: 50%; }
+  @include desktop { width: 50%; }
 }
 
 .two-thirds {
