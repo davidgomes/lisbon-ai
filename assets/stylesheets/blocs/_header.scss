@@ -12,7 +12,7 @@ header {
     width: 100%;
     justify-content: space-between;
     @include desktop { justify-content: space-around; }
-    svg {
+    a {
       order: 1;
       margin-bottom: -5rem;
       margin-top: 2rem;
