@@ -58,6 +58,7 @@ header {
     text-align: left;
     padding: 1rem 2rem;
     border-bottom: solid rgba($light, 0) 1px;
+    color: $light;
     @include transition();
 
     @include desktop { padding: 1rem 3.0rem; }
@@ -75,6 +76,7 @@ header {
       &:hover {
         background-color: rgba($dark, 0.7);
         border: solid rgba($light, 0.6) 1px;
+        color: $light;
       }
     }
 

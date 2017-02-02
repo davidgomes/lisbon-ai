@@ -46,8 +46,10 @@ Text and alignments
 .cammel      { text-transform: capitalize; }
 .no-upper    { text-transform: none; }
 .lower       { text-transform: lowercase; }
+.underline   { border-bottom: solid rgba($light, 0.8) 1px; }
 .t-shadow    { text-shadow: 0 1px 1px rgba($black, .1); }
 .z-index     { z-index: 100; }
+.lh-100      { line-height: 100%; }
 .lh-150      { line-height: 150%; }
 
 .va-m        { vertical-align: middle; }
