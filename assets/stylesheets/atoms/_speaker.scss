@@ -1,0 +1,66 @@
+.speaker {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+  @include desktop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &:hover, &:active {
+    figure {
+        &:after {
+          @include transition();
+          background-color: rgba($blue, 0.2);
+        }
+    }
+    span {
+      @include desktop {
+        @include transition();
+        border: solid rgba($light, 0.6) 1px;
+      }
+    }
+  }
+  figure {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    img.avatar {
+      width: 15rem;
+      height: 15rem;
+      border-radius: 0.4rem;
+      @include desktop {
+        margin-right: 0;
+      }
+    }
+
+    &:after {
+      @include transition();
+      position: absolute;
+      content: ' ';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 0.4rem;
+      background-color: rgba($blue, 0.4);
+    }
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  span {
+    @include transition();
+    border: solid transparent 1px;
+    height: 0;
+    width: 5rem;
+  }
+
+}

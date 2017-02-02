@@ -13,6 +13,10 @@ Grid system based on three columns
   @include desktop { width: 50%; }
 }
 
+.third {
+  @include desktop { width: 33.333%; }
+}
+
 .two-thirds {
   @include tablet { width: 66.666%; }
 }
