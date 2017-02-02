@@ -36,6 +36,17 @@ header {
   background-size: cover;
 }
 
+.bg-lx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../../resources/lx.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bg-gradient {
   position: fixed;
   top: 0;
@@ -68,6 +79,10 @@ h1 {
   line-height: 140%;
   font-family: 'Monda', sans-serif;
   font-weight: 700;
+}
+
+h2 {
+  line-height: 140%;
 }
 
 
