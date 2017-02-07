@@ -5,8 +5,13 @@ Header background images
 */
 header {
   z-index: 100;
-  // max-width: 1200px;
+  max-width: 1000px;
   width: 85%;
+  //max-width: 1200px;
+  //width: 85%;
+  @include tablet {
+    width: 70%;
+  }
   @include desktop { width: 80vw; }
   div {
     width: 100%;
