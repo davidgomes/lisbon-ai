@@ -1,10 +1,15 @@
 .speaker {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 2rem;
   padding-right: 3rem;
+  @include tablet {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
   @include desktop {
     flex-direction: column;
     align-items: flex-start;
