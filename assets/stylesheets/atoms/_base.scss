@@ -29,6 +29,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  height: calc(100vh + 60px);
   background: url(../resources/photos/background_blur.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -72,6 +73,16 @@ header {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.bg-lx-blur,
+.bg-lx,
+.bg-gradient,
+.bg-black {
+  @media (max-width: 550px){
+    height: calc(100vh + 60px); //hack chrome bar mobile resize window
+  }
+}
+
 
 h1 {
   font-size: 5rem;
