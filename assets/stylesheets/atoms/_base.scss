@@ -78,6 +78,7 @@ header {
 .bg-lx,
 .bg-gradient,
 .bg-black {
+  height: 100vh;
   @media (max-width: 550px){
     height: calc(100vh + 60px); //hack chrome bar mobile resize window
   }
