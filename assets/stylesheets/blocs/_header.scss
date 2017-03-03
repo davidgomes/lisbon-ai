@@ -66,7 +66,12 @@ header {
     color: $light;
     @include transition();
 
-    @include desktop { padding: 1rem 3.0rem; }
+    @include desktop {
+      padding: 1rem 3.0rem;
+      &:hover {
+        border-bottom: solid rgba($light, 0.7) 1px;
+      }
+    }
 
     &.button {
       @include transition();
@@ -76,17 +81,12 @@ header {
       width: 100%;
       @include desktop {
         width: auto;
+        &:hover {
+          background-color: rgba($dark, 0.7);
+          border: solid rgba($light, 0.6) 1px;
+          color: $light;
+        }
       }
-
-      &:hover {
-        background-color: rgba($dark, 0.7);
-        border: solid rgba($light, 0.6) 1px;
-        color: $light;
-      }
-    }
-
-    &:hover {
-      border-bottom: solid rgba($light, 0.7) 1px;
     }
   }
 }
