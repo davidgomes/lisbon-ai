@@ -156,20 +156,31 @@ i {
 .time-table {
   .third {
     width: 100%;
-    @include tablet { width: 48%; }
-    @include desktop { width: 40%; }
+    @include tablet { width: 45%; }
+    @include desktop { width: 60%; }
 
-    a {
+    .speaker-block {
       padding-top: 1.1rem;
       padding-bottom: 0.9rem;
-      padding-left: 1rem;
+      display: block;
+
       @include transition();
+
       &:hover, &:active {
         @include transition();
         background-color: rgba($dark, 0.2);
         cursor: pointer;
       }
-    }
 
+      .numbers {
+          text-transform: uppercase;
+      }
+
+      .event-title {
+          font-weight: bold;
+      }
+
+      .speaker-name { }
+    }
   }
 }
