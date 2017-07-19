@@ -25,6 +25,7 @@ input[type="submit"] {
   cursor: pointer;
   width: 100%;
   padding-bottom: 1rem;
+  -webkit-appearance: none;
   @include desktop {
     width: auto;
     &:hover {
