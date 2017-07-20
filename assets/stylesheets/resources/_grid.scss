@@ -33,7 +33,7 @@ Grid system based on three columns
   max-width: 1000px;
   width: 85%;
   @include tablet {
-    width: 75%;
+    width: 80%;
   }
   @include desktop {
     width: 70%;
