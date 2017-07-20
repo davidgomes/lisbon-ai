@@ -186,3 +186,11 @@ i {
   }
 
 }
+
+.separator {
+  border: solid rgba($light, 0.6) 1px;
+  width: 50px;
+  @include desktop {
+    margin-left: 0.5rem;
+  }
+}
