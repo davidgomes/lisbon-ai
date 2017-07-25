@@ -1,5 +1,5 @@
 .partner {
-  background-color: $light;
+  background-color: $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
   }
 
   &:hover, &:active {
-    background-color: $light;
+    background-color: #fffdfd;
     box-shadow: 0px 0px 20px rgba($dark, 0.6);
   }
 
